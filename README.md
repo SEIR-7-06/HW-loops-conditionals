@@ -154,10 +154,9 @@ Continue looking at the closet arrays:
 "Commit 8 - Looping through closets".
 <hr>
 
----
-
-
 # Hungry for more?
+
+The rest of these problems are for extra practice and not required to complete.
 
 ## Fizz Buzz 
 
