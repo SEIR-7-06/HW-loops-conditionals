@@ -4,17 +4,15 @@
 
 ---
 Type: Deliverable<br>
-Creator: WDI-Funke<br>
-    Modified by: Kristyn Bryan and then by: Reuben Ayres<br>
 Competencies: Arrays, Loops, Conditionals <br>
 Language: JavaScript <br>
 
 ---
 
 ## Setup
-1. *Fork* this repo and clone it into your `seir-12-07/deliverables` directory. (While you're doing that, ask yourself: Why are we forking and cloning and not just cloning)?  
+1. *Fork* this repo to your account and then clone it down to your compumter into your `sei/deliverables` directory.
 
-2. Inside the directory created by the clone, build our file structure (index.html and js file). Put your answers in `app.js`.
+2. Inside the directory created by the clone, build our file structure (index.html and app.js). Put your answers in `app.js`.
 
 3. Keep your answers organized! Include a commented header for each section in your answers file.
 
@@ -22,7 +20,7 @@ Language: JavaScript <br>
 
 5. After each section (even if you're not fully done with it), *add* and *commit* your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message.
 
-6. When you are done with your homework, push up to your forked repo. (git push origin master). Create a pull request from your fork to `WC-SEIR-1207/HW-Loops-Conditionals`.
+6. When you are done with your homework, push up to the forked repo on your personal account with `git push origin main`. Create a pull request from your fork to `WC-SEIR-7-06/HW-Loops-Conditionals`.
 
 * Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions if you wanna push beyond the baseline.
 
