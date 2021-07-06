@@ -42,6 +42,7 @@ Language: JavaScript <br>
 <hr>
 
 ## Excited Kitten
+
 1. Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
 
 2. For every **even** number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
@@ -55,24 +56,8 @@ Language: JavaScript <br>
 "Commit 3 - Excited Kittens answered"
 <hr>
 
-## Fizz Buzz 
+## Working with Arrays
 
->NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
-
-Write a javascript application that logs all numbers from 1 - 100 **AND**: 
-
-  1. If a number is divisible by 3 log "Fizz" instead of the number.
-  
-  1. If a number is divisible by 5 log "Buzz" instead of the number.
-  
-  1. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz".
-    
-<hr>
-&#x1F534; The commit message should read: <br>
-"Commit 4 - Fizz Buzz answered"
-<hr>
-
-## Getting to Know You
 Use the following arrays to answer the questions below (name, age, hometown):
 ```javascript
 const kenny = ["Kenny", 1000, "Austin"];
@@ -151,8 +136,7 @@ const thomsCloset = [
 ### Alien Attire
 1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
 
-### Dress 'em Up
-1. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+2. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
 
 <hr>
 &#x1F534; The commit message should read: <br>
@@ -163,12 +147,33 @@ const thomsCloset = [
 Continue looking at the closet arrays:
 1. Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
 
-### Inventory
 2. Thom wants to do inventory on his closet. Using **bracket notation**, log the **arrays** (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 8 - I loops through their closets".
+"Commit 8 - Looping through closets".
+<hr>
+
+---
+
+
+# Hungry for more?
+
+## Fizz Buzz 
+
+>NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
+
+Write a javascript application that logs all numbers from 1 - 100 **AND**: 
+
+  1. If a number is divisible by 3 log "Fizz" instead of the number.
+  
+  1. If a number is divisible by 5 log "Buzz" instead of the number.
+  
+  1. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz".
+    
+<hr>
+&#x1F534; The commit message should read: <br>
+"Commit 4 - Fizz Buzz answered"
 <hr>
 
 ## Multiples of 3 and 5
@@ -187,11 +192,6 @@ Find the **sum** of all the multiples of 3 or 5 below 1000.
 &#x1F534; The commit message should read: <br>
 "Commit 9 - Project Euler Problem 1 answered"
 <hr>
-
----
-
-
-# Hungry for more?
 
 ## Triangles
 
