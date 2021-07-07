@@ -49,8 +49,6 @@ Language: JavaScript <br>
 
 >Hint: You will need to use Math.random()
 
-![Image of cat with funny quote about dot](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRETGsssSXu2AS15GpQIBhuSgkhP2q_4JZcPopN4dFP-v85mAePGA)
-
 <hr>
 &#x1F534; The commit message should read: <br>
 "Commit 3 - Excited Kittens answered"
