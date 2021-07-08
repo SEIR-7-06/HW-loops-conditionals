@@ -12,3 +12,10 @@ for (i=0; i<=200;) {
     i = i + 2;
 }
 
+//3. Excited Kitten
+
+for (i=0; i<=20;) {
+    console.log("love me, pet me! HSSSS!");
+    //console.log(i)
+    i = i + 1;
+}
