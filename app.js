@@ -1,14 +1,20 @@
-console.log('test')
+/* Cody Tsao
+SEI 7.06
+Deliverable 2: Loops Conditionals Arrays 
+*/
+
 // 1
 for (let i = 1; i <= 20; i++)
 {  
     console.log(i)
 }
+
 // 2
 for (let i = 0; i <= 200; i+=2)
 {
     console.log(i)
 }
+
 // 3
 for (let i =0; i<20; i++)
 {
@@ -22,6 +28,7 @@ for (let i =0; i<20; i++)
         console.log(arr[Math.floor(Math.random() * arr.length) ] )
     }
 }
+
 // 4
 const kenny = ["Kenny", 1000, "Austin"];
 const jimHaff = ["Jim H", 16, "All cities"];
@@ -47,6 +54,33 @@ jimHaff.pop()
 jimHaff.push('Taipei', 'Taichung', 'Paris')
 /* bonus */
 jimHaff.splice(2,1,'')
+
+//5
+const ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for (let i = 0; i <ninjaTurtles.length; i++)
+{
+    console.log(ninjaTurtles[i].toUpperCase())
+}
+/* bonus */
+const newString = ["","","",""]
+const ninTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for (let i = 0; i< ninTurtles.length; i++)
+{    
+    for (let k = 0; k < ninTurtles[i].length; k++)
+    {
+        if (k%2 === 0)
+        {
+            newString[i]+= ninTurtles[i][k].toUpperCase()
+        }
+        else
+        {
+            newString[i]+=( ninTurtles[i][k] )
+        }
+            
+    }    
+    console.log(newString[i])
+}
+
 
 
 
