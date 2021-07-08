@@ -49,3 +49,13 @@ console.log(jimHaff)
 
 jimHaff.splice(2,1)
 console.log(jimHaff)
+
+//6. Yell at the Ninja Turtles
+
+let ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (let x = 0; x in ninjaTurtles;) {
+    ninjaTurtles[x] = ninjaTurtles[x].toUpperCase();
+    x = x + 1;
+}
+console.log(ninjaTurtles);
+
