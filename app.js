@@ -116,4 +116,12 @@ const kristynsCloset = [
 let kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].push(kristynsShoe);
 
+//Question 2
+  //Come back to this one
+let kristynWears = kristynsCloset[Math.floor(Math.random()*6)] //she has 7 choices
+//need a for loop though that only goes up to three
+for ( let z = 0; z < 3; z++) {
+    console.log("I'm Kristyn, and today I'll be wearing " +
+    kristynWears + ".");
+}
 
