@@ -52,16 +52,32 @@ reuben.splice(2,1, "Chicago");
 jimHaff.splice(2, 1, "Rio", "Paris", "Nairobi");
 
 //Question 6
-jimHaff.splice(2,1);*/
+jimHaff.splice(2,1);
 
 //Yell at the Ninja Turtles
+
+//Question 1
 let ninjaTurtles = [
     "Donatello", 
     "Leonardo", 
     "Raphael", 
     "Michaelangelo"]
 
+//Question 2
 let i;
 for ( i = 0; i < ninjaTurtles.length; i++) {
     console.log(ninjaTurtles[i].toUpperCase());
 }
+
+//Question 3
+    //Come back to this one, still needs worked out
+let i;
+for ( i = 0; i < ninjaTurtles.length; i++) {
+    if (i % 2 == 0) {
+        console.log(ninjaTurtles[i].toUpperCase());
+    } else {
+            console.log(ninjaTurtles[i].toLowerCase())
+    }
+}*/
+
+
