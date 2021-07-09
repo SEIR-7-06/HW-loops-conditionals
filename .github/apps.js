@@ -13,3 +13,5 @@ let hiveMind = ["...human...why you taking pictures of me?...",
 for (affection = 0; affection <= 20; affection++){
     console.log("Love me, pet me! HSSSSSS!")
 }
+
+for (let affection = 0; affection)
