@@ -112,10 +112,11 @@ const kristynsCloset = [
       "raybans"
     ]
   ];
+  /* 1 */
   let kristynsShoe = kristynsCloset.shift()
   
  
-
+  /* 2 */
   for (let i = 0; i<3; i++)
   {
       const outfits = []
@@ -146,14 +147,20 @@ const kristynsCloset = [
     }
   }
 
-     
-
+  //7
+  /* 1 */
+  console.log("Washing Kristyn's Clothes")
+ for (let i =0; i < kristynsCloset.length; i++)    
+ {
+   console.log("WHIRR: Now washing " + kristynsCloset[i])
+ }
+/* 2 */
+console.log("Creating an Inventory of Thom's Clothes")
+for (let i = 0; i <thomsCloset.length; i++)
+{
+  console.log(thomsCloset[i])
+}
   
-
-/*   Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. Use that variable to add Kristyn's lost shoe to Thom's accessories array.
-
-  Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
- */
 
 
 
