@@ -244,6 +244,37 @@ for (let i = 0; i <= argument; i++)
   }
   console.log(blankSpace + poundSigns)
 }
+// Find the Median
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18,12, 17, 12, 71, 18, 15, 12];
+const sortedNums = []
+let median = 0
+while (nums.length != 0)
+{
+  let min = Number.MAX_VALUE
+  let index = 0
+  for (let i = 0; i <nums.length; i++)
+  {  
+    if (nums[i] < min )
+      {
+        index = i
+        min = nums[i]
+      }
+  }
+  sortedNums.push(min)
+  nums.splice(index,1)
+}
+if ( sortedNums.length %2 === 0)
+{
+  median = ( sortedNums[(sortedNums.length/2) -1] + sortedNums[(sortedNums.length/2)] ) / 2
+}
+else 
+{
+  median = sortedNums[Math.floor(sortedNums.length / 2)]
+}
+console.log(median)
+
+
+
 
 
 
