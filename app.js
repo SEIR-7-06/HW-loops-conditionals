@@ -12,7 +12,7 @@ for (let i = 0; i <= 200; i+=2) {
 //Excited Kitten Question 1
 for (let i = 0; i < 20; i++) {
     console.log("Love me, pet me! Hssss!");
-}*/
+}
 
 //Excited Kitten Question 2
 let catStatements = [
@@ -27,4 +27,18 @@ for (i = 0; i < 20; i++) {
     if (i % 2 == 0) {
         console.log(catSays);
     }
-}
+}*/
+//////////////////////////////////////////////
+//Working With Arrays
+const kenny = ["Kenny", 1000, "Austin"];
+const jimHaff = ["Jim H", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const jimClark = ["Jim C", 186, "LA"];
+const ryan = ["Ryan", 65, "Denver"];
+
+//Question 1
+kenny[0] = "Gameboy";
+console.log(kenny);
+
+
+
