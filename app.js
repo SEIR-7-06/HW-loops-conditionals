@@ -45,6 +45,8 @@ kenny[0] = "Gameboy";
 //Question 3
 ryan[2] = "Gotham City";
 
-
+//Question 4
+reuben.splice(2,1, "Chicago");
+console.log(reuben);
 
 
