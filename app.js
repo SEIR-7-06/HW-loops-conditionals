@@ -192,6 +192,59 @@ for (let i = 1; i < 1000; i++)
 }
 console.log(sum)
 
+//Triangles
+/* 1 */
+let argument = 7
+let line = ''
+console.log("triangle")
+for (let i = 0; i <= argument; i++)
+{
+  line+= '#'
+  console.log(line)  
+}
+/* 2 */
+console.log("right triangle")
+let reverseline = ''
+for (let i = 0; i <= argument; i++)
+{
+  reverseline+= ' '
+}
+for (let i =0; i < argument; i++)
+{
+  reverseline = reverseline.substring(1)
+  reverseline+='#'
+  console.log(reverseline)
+}
+/* 3 */
+console.log("upsidedown triangle")
+let upsideDownLine = ''
+for (let i = 0; i <= argument; i++)
+{
+  upsideDownLine+= '#'
+}
+for (let i = 0; i <= argument; i++)
+{
+  console.log(upsideDownLine)
+  upsideDownLine = upsideDownLine.substring(0, upsideDownLine.length-1) 
+}
+/* 4 */
+console.log("upsidedown right triangle")
+
+for (let i = 0; i <= argument; i++)
+{
+  let blankSpace =''
+  let poundSigns =''
+  for (let k = 0; k <i; k++)
+  {
+    blankSpace+=' '  
+  }
+  for (let j = 0; j < argument -i; j++)
+  {
+    poundSigns += '#'    
+  }
+  console.log(blankSpace + poundSigns)
+}
+
 
 
 
