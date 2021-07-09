@@ -109,18 +109,29 @@
 
 //////////////////////  FIZZBUZZ //////////////////////////////
 
-for(let i = 1; i <= 100; i++){
+// for(let i = 1; i <= 100; i++){
   
-    if(i % 3 == 0 && i % 5 == 0){
-      console.log("fizzbuzz " + i);
-    } else if(i % 3 == 0){
-        console.log("fizz " + i)
-      }else if(i % 5 == 0){
-        console.log("buzz " + i)
-      }else {
-        console.log(i);
-      }
-  }
+//     if(i % 3 == 0 && i % 5 == 0){
+//       console.log("fizzbuzz " + i);
+//     } else if(i % 3 == 0){
+//         console.log("fizz " + i)
+//       }else if(i % 5 == 0){
+//         console.log("buzz " + i)
+//       }else {
+//         console.log(i);
+//       }
+//   }
+
+let result = 0;
+
+for(let i = 1; i < 1000; i++){
+    if(i % 3 === 0 || i % 5 === 0) {
+        result += i;
+        
+    }
+}
+console.log(result);
+
 
 
 
