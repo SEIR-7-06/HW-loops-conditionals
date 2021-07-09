@@ -112,7 +112,8 @@ const kristynsCloset = [
     ]
   ];
 
-//Question 1
+/*
+  //Question 1
 let kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].push(kristynsShoe);
 
@@ -125,3 +126,7 @@ for ( let z = 0; z < 3; z++) {
     kristynWears + ".");
 }
 
+//Dirty Laundry
+for (let i = 0; i <kristynsCloset.length; i++) {
+    console.log("WHIRR:Now washing", kristynsCloset[i] +".");
+}*/
