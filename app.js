@@ -27,7 +27,7 @@ for (i = 0; i < 20; i++) {
     if (i % 2 == 0) {
         console.log(catSays);
     }
-}*/
+}
 //////////////////////////////////////////////
 //Working With Arrays
 const kenny = ["Kenny", 1000, "Austin"];
@@ -51,6 +51,17 @@ reuben.splice(2,1, "Chicago");
 //Question 5
 jimHaff.splice(2, 1, "Rio", "Paris", "Nairobi");
 
-//Question 3
-jimHaff.splice(2,1);
-console.log(jimHaff);
+//Question 6
+jimHaff.splice(2,1);*/
+
+//Yell at the Ninja Turtles
+let ninjaTurtles = [
+    "Donatello", 
+    "Leonardo", 
+    "Raphael", 
+    "Michaelangelo"]
+
+let i;
+for ( i = 0; i < ninjaTurtles.length; i++) {
+    console.log(ninjaTurtles[i].toUpperCase());
+}
