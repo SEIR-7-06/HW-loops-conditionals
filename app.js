@@ -113,25 +113,42 @@ const kristynsCloset = [
     ]
   ];
 
-/*
-  //Question 1
+
+ /* //Question 1
 let kristynsShoe = kristynsCloset.shift();
-thomsCloset[2].push(kristynsShoe);
+thomsCloset[2].push(kristynsShoe);*/
 
 //Question 2
-  //Come back to this one
-let kristynWears = kristynsCloset[Math.floor(Math.random()*6)] //she has 7 choices
-//need a for loop though that only goes up to three
-for ( let z = 0; z < 3; z++) {
-    console.log("I'm Kristyn, and today I'll be wearing " +
-    kristynWears + ".");
-}
+  //Come back to this one - convoluted
+let kristynWearsOne = kristynsCloset[Math.floor(Math.random()*7)];
+let kristynWearsTwo = kristynsCloset[Math.floor(Math.random()*7)];
+let kristynWearsThree= kristynsCloset[Math.floor(Math.random()*7)];
+
+let outfitOne = kristynWearsOne;
+let outfitTwo = kristynWearsTwo;
+let outfitThree= kristynWearsThree;
+
+console.log("Hi, I'm Kristyn, and today I'll be wearing", 
+    outfitOne, "and", outfitTwo, "and", outfitThree, ".");
+
+//problem here in that thom sometimes wears things from the same family
+thomsWearsOne = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
+thomsWearsTwo = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
+thomsWearsThree = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
+
+let fitOne = thomsWearsOne;
+let fitTwo = thomsWearsTwo;
+let fitThree= thomsWearsThree;
+
+console.log("Hi, I'm Thom, and today I'll be wearing",
+    fitOne, "and", fitTwo, "and", fitThree, ".");
+
 
 //Dirty Laundry
 //Question 1
 for (let i = 0; i <kristynsCloset.length; i++) {
     console.log("WHIRR:Now washing", kristynsCloset[i] +".");
-}*/
+}
 
 //Question 2
     //Come back to this one
@@ -139,4 +156,5 @@ for (let i = 0; i <kristynsCloset.length; i++) {
 
 ////////////////////////////Hungry For More
 //Fizz Buzz
+
 
