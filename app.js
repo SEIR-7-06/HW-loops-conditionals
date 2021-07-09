@@ -1,5 +1,5 @@
-//Easy Going Question 1
-/*for (let i= 0; i<=20; i++) {
+/*//Easy Going Question 1
+for (let i= 0; i<=20; i++) {
     console.log(i);
 }
 
@@ -40,7 +40,8 @@ const ryan = ["Ryan", 65, "Denver"];
 kenny[0] = "Gameboy";
 
 //Question 2
-    //need to ask a clarity question
+let jimClarkAge = jimClark[1]
+console.log(jimClarkAge +1);
 
 //Question 3
 ryan[2] = "Gotham City";
@@ -134,4 +135,8 @@ for (let i = 0; i <kristynsCloset.length; i++) {
 
 //Question 2
     //Come back to this one
-console.log(thomsCloset.length);
+//console.log(thomsCloset.length);
+
+////////////////////////////Hungry For More
+//Fizz Buzz
+
