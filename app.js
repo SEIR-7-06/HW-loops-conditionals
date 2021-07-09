@@ -1,7 +1,20 @@
-for(i = 1; i <=20; i++){
-    console.log(i);
-}
+// for(i = 1; i <=20; i++){
+//     console.log(i);
+// }
 
-for(i = 0; i <= 200; i +=2){
-    console.log(i);
+// for(i = 0; i <= 200; i +=2){
+//     console.log(i);
+// }
+
+randomKitty = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..." ]
+
+let excitedKitty = "";
+
+for(i = 0; i < 20; i++){
+        if(i % 2 === 0){
+            console.log(excitedKitty);
+        }else{
+            console.log("Love me, pet me! HSSSSSS!");
+        }
+   excitedKitty = randomKitty[Math.floor(Math.random() * 3)];
 }
