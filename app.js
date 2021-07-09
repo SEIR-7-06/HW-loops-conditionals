@@ -42,3 +42,6 @@ console.log(ryan[x])
 reuben.splice(2, 1, "Chicago")
 console.log(reuben[2])
 
+jimHaff.splice(2, 1, "Paris", "Rome", "Seattle")
+console.log(jimHaff)
+
