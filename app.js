@@ -38,7 +38,13 @@ const ryan = ["Ryan", 65, "Denver"];
 
 //Question 1
 kenny[0] = "Gameboy";
-console.log(kenny);
+
+//Question 2
+    //need to ask a clarity question
+
+//Question 3
+ryan[2] = "Gotham City";
+
 
 
 
