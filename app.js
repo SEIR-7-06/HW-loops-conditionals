@@ -122,15 +122,36 @@
 //       }
 //   }
 
-let result = 0;
+/////////////////// EULER PROBLEM ///////////////////////
 
-for(let i = 1; i < 1000; i++){
-    if(i % 3 === 0 || i % 5 === 0) {
-        result += i;
+// let result = 0;
+
+// for(let i = 1; i < 1000; i++){
+//     if(i % 3 === 0 || i % 5 === 0) {
+//         result += i;
         
-    }
+//     }
+// }
+// console.log(result);
+
+///////////// TRIANGLES /////////////////////////
+
+let argument = 7;
+let container = [];
+let hashTag = "";
+let otherTag = "^";
+
+// do this as a splice, slice and/or split?
+
+
+for(i = 0; i < argument; i++){
+   
+    
+    
+   
 }
-console.log(result);
+
+
 
 
 
