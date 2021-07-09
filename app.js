@@ -72,6 +72,38 @@ const kristynsCloset = [
     ]
   ];
 
-  krystnsShoe = kristynsCloset.splice(0,1).toString();
+krystnsShoe = kristynsCloset.splice(0,1).toString();
 thomsCloset[2].push(krystnsShoe);
-console.log(thomsCloset[2]);
+
+randomOutfit = [];
+randomOutfitK = kristynsCloset[Math.floor(Math.random() * (kristynsCloset.length -1))];
+randomOutfitT1 = thomsCloset[Math.floor([Math.random() * (thomsCloset.length - 1)])];
+randomOutfitT2 = randomOutfitT1[Math.floor([Math.random() * (randomOutfitT1.length - 1)])];
+console.log("Today, were going to be wearing the", randomOutfitK, "and", randomOutfitT2 + ".");
+
+for(let i = 0; i < kristynsCloset.length; i++){
+    console.log("WHIRR: Now washing (" + kristynsCloset[i] + ")");
+}
+
+
+
+for(let j = 0; j < thomsCloset.length; j++){
+            
+    
+            switch(j){
+            case 0:
+                console.log("Thom's shirts");
+                break;
+            case 1:
+                console.log("Thom's pants");
+                break;
+            case 2:
+                console.log("Thom's accessories");
+                break;
+            default:
+                console.log("Hey! Where did all of Thom's stuff go???");
+                break;
+
+        }
+}
+
