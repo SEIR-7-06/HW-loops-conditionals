@@ -127,6 +127,11 @@ for ( let z = 0; z < 3; z++) {
 }
 
 //Dirty Laundry
+//Question 1
 for (let i = 0; i <kristynsCloset.length; i++) {
     console.log("WHIRR:Now washing", kristynsCloset[i] +".");
 }*/
+
+//Question 2
+    //Come back to this one
+console.log(thomsCloset.length);
