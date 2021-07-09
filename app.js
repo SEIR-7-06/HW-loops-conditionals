@@ -1,10 +1,14 @@
 //Author: DK Nam
+
+
 //Question 1
 for(let i = 0; i < 201; i++){
     if(i % 2 === 0){
         console.log(i)
     }
 }
+
+
 //Excited Kitten
 for(let i=0; i < 20; i++){
     console.log("Love me, pet me! HSSSSSS!")
@@ -18,6 +22,8 @@ for(let i=0; i < 20; i++){
     }
     console.log("Love me, pet me! HSSSSSS!")
 }
+
+
 //Working Arrays
 const kenny = ["Kenny", 1000, "Austin"];
 const jimHaff = ["Jim H", 16, "All cities"];
@@ -47,3 +53,18 @@ console.log(jimHaff)
 //6.) (This question needs to be commented out for #5 to show up correctly, otherwise it will also be missing Paris)
 jimHaff.splice(2,1)
 console.log(jimHaff)
+
+
+//Yell at the Ninja Turtles
+let team = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for(let i=0; i<team.length; i++){
+    if(i % 2 === 0){
+        team[i] = team[i].toUpperCase();
+        console.log(team[i]);
+    }
+    else{
+        team[i] = team[i].toLowerCase();
+        console.log(team[i]);
+    }
+
+}
