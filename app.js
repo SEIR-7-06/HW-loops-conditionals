@@ -50,5 +50,7 @@ reuben.splice(2,1, "Chicago");
 
 //Question 5
 jimHaff.splice(2, 1, "Rio", "Paris", "Nairobi");
-console.log(jimHaff)
 
+//Question 3
+jimHaff.splice(2,1);
+console.log(jimHaff);
