@@ -1,16 +1,16 @@
-//  Easy Going
+////////////////  Easy Going
 
 for(let num = 0; num <= 20; num++) {
     console.log(num);
 }
 
-//  Get Even
+//////////////  Get Even
 
 for (let num = 0; num <= 200; num+=2) {
     console.log(num);
 }
 
-//  Excited Kitten
+////////////////  Excited Kitten
 
 let myCat = 'Love me, pet me! HSSSSSS!';
 
@@ -28,7 +28,7 @@ for(let i = 0; i < randomIndex; i+=2) {
     console.log(catTalk[i]);
 }
 
-//  Working with Arrays
+/////////////   Working with Arrays
 
 const kenny = ["Kenny", 1000, "Austin"];
 const jimHaff = ["Jim H", 16, "All cities"];
@@ -53,7 +53,7 @@ jimHaff.splice(2, 1, "ATL", "Brooklyn", "D.C")
 console.log(jimHaff);
 
 
-//  Yell at the Ninja Turtles
+/////////////  Yell at the Ninja Turtles
 
 const ninjaTurtles = [
     "Donatello", 
@@ -63,4 +63,64 @@ const ninjaTurtles = [
 
 for(let i = 0; i < 4; i++) {
     console.log(ninjaTurtles[i].toUpperCase());
+}
+
+// /////////////   RETURN OF THE CLOSETS 
+
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  
+  kristynsCloset.splice(0, 1, 0);
+  console.log(kristynsCloset);
+
+  const kristynShoe = "left shoe";
+
+const kristynsOutfit = [
+    "Kristyn is wearing Nike hoodie and sweat pants today!",
+    "Kristyn is wearing pj's today.",
+    "Kristyn is wearing her birthday suit today!"
+];
+
+for (let i = 0; i < 3; i++){
+    console.log(kristynsOutfit[i]);
+}
+
+const thomsOutfit = [
+    "Thom's wearing a light blue button up and grey pants.",
+    "Thom's wearing a white-t and basketball shorts.",
+    "Thom's wearing a suit from Suit Supply."
+];
+
+for (let i = 0; i < 3; i++) {
+    console.log(thomsOutfit[i]);
 }
