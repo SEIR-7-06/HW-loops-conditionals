@@ -84,7 +84,7 @@ for ( i = 0; i < ninjaTurtles.length; i++) {
 }*/
 
 //Return of the Closets
-const kristynsCloset = [
+ /*const kristynsCloset = [
     "left shoe",
     "cowboy boots",
     "right sock",
@@ -115,7 +115,7 @@ const kristynsCloset = [
     ]
   ];
 
- /* //Question 1
+ //Question 1
 let kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].push(kristynsShoe);*/
 
@@ -151,7 +151,7 @@ console.log("Hi, I'm Thom, and today I'll be wearing " +
 /*
 for (let i = 0; i <kristynsCloset.length; i++) {
     console.log("WHIRR:Now washing", kristynsCloset[i] +".");
-}*/
+}
 
 //Question 2
 let thomsShirts = thomsCloset[0].length;
@@ -163,8 +163,29 @@ console.log(thomsAcc);
 
 let totalCloset = thomsShirts + thomsPants + thomsAcc;
 console.log(totalCloset);
-
 ////////////////////////////Hungry For More
 //Fizz Buzz
+let i;
+for (i = 1; i <= 100; i++) {
+    if (i % 5 == 0 && i % 3 == 0) {
+        console.log("FizzBuzz");
+    } else if (i % 5 == 0) {
+        console.log("Buzz");
+    } else if (i % 3 == 0) {
+        console.log("Fizz");
+    } else {
+        console.log(i);
+    }
+}
 
+//Multiples of 3 & 5
+let sum = 0
+let i;
+for (i = 1; i < 1000; i++) {
+    if (i % 5 == 0 || i % 3 == 0) {
+        sum+=i;
+    }
+}
+console.log(sum);*/
 
+//Triangles
