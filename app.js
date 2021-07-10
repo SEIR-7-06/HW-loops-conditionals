@@ -41,7 +41,9 @@ kenny[0] = "Gameboy";
 
 //Question 2
 let jimClarkAge = jimClark[1]
-console.log(jimClarkAge +1);
+let jimClarkBirthdayUpdate = jimClarkAge + 1
+jimClark[1] = jimClarkBirthdayUpdate
+console.log(jimClark[1]);
 
 //Question 3
 ryan[2] = "Gotham City";
