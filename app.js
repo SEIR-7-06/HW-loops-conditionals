@@ -115,14 +115,13 @@ const kristynsCloset = [
     ]
   ];
 
-
  /* //Question 1
 let kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].push(kristynsShoe);*/
 
 //Question 2
   //Come back to this one - convoluted
-let kristynWearsOne = kristynsCloset[Math.floor(Math.random()*7)];
+/*let kristynWearsOne = kristynsCloset[Math.floor(Math.random()*7)];
 let kristynWearsTwo = kristynsCloset[Math.floor(Math.random()*7)];
 let kristynWearsThree= kristynsCloset[Math.floor(Math.random()*7)];
 
@@ -130,10 +129,11 @@ let outfitOne = kristynWearsOne;
 let outfitTwo = kristynWearsTwo;
 let outfitThree= kristynWearsThree;
 
-console.log("Hi, I'm Kristyn, and today I'll be wearing", 
-    outfitOne, "and", outfitTwo, "and", outfitThree, ".");
+console.log("Hi, I'm Kristyn, and today I'll be wearing " +
+    outfitOne + " and " + outfitTwo + " and " + outfitThree + ".");
 
-//problem here in that thom sometimes wears things from the same family
+//problem here in that thom sometimes wears things from the same family 
+//also excludes the fourth option in array0
 thomsWearsOne = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
 thomsWearsTwo = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
 thomsWearsThree = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
@@ -142,19 +142,27 @@ let fitOne = thomsWearsOne;
 let fitTwo = thomsWearsTwo;
 let fitThree= thomsWearsThree;
 
-console.log("Hi, I'm Thom, and today I'll be wearing",
-    fitOne, "and", fitTwo, "and", fitThree, ".");
+console.log("Hi, I'm Thom, and today I'll be wearing " +
+    fitOne + " and " + fitTwo + " and " + fitThree + ".");*/
 
 
 //Dirty Laundry
 //Question 1
+/*
 for (let i = 0; i <kristynsCloset.length; i++) {
     console.log("WHIRR:Now washing", kristynsCloset[i] +".");
-}
+}*/
 
 //Question 2
-    //Come back to this one
-//console.log(thomsCloset.length);
+let thomsShirts = thomsCloset[0].length;
+console.log(thomsShirts); 
+let thomsPants = thomsCloset[1].length;
+console.log(thomsPants);
+let thomsAcc = thomsCloset[2].length;  
+console.log(thomsAcc); 
+
+let totalCloset = thomsShirts + thomsPants + thomsAcc;
+console.log(totalCloset);
 
 ////////////////////////////Hungry For More
 //Fizz Buzz
