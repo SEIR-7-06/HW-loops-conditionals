@@ -149,7 +149,7 @@ console.log("Hi, I'm Thom, and today I'll be wearing " +
 //Dirty Laundry
 //Question 1
 /*
-for (let i = 0; i <kristynsCloset.length; i++) {
+for (let i = 0; i < kristynsCloset.length; i++) {
     console.log("WHIRR:Now washing", kristynsCloset[i] +".");
 }
 
@@ -188,4 +188,20 @@ for (i = 1; i < 1000; i++) {
 }
 console.log(sum);*/
 
-//Triangles
+/////Find the Median
+const nums =[14, 11, 16, 15, 13, 16, 
+    15, 17, 19, 11, 12, 14, 
+    19, 11, 15, 17, 11, 18,
+    12, 17, 12, 71, 18, 15, 12];
+
+let sorted = nums.sort(function(a,b) {
+return a-b
+});
+
+let lengthOf = sorted.length;
+
+for (let i = 0; i < lengthOf; i++) {
+    if (i == lengthOf/2 + .5) {
+    console.log(sorted[i]);
+    }
+}
