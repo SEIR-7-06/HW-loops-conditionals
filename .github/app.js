@@ -99,7 +99,8 @@ const kristynsCloset = [
     ]
   ];
 
-  
+//////// ALIEN ATTIRE
+
   kristynsCloset.splice(0, 1, 0);
   console.log(kristynsCloset);
 
@@ -123,4 +124,15 @@ const thomsOutfit = [
 
 for (let i = 0; i < 3; i++) {
     console.log(thomsOutfit[i]);
+}
+
+////////// DIRTY LAUNDRY 
+
+for (let i = 0; i < kristynsCloset.length; i++){
+    console.log( "WHIRR: now washing " + kristynsCloset[i] ); 
+
+}
+
+for (let i = 0; i < thomsCloset.length; i++) {
+    console.log(thomsCloset[i]);
 }
