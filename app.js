@@ -57,6 +57,8 @@ jimHaff.splice(2, 1, "Rio", "Paris", "Nairobi");
 //Question 6
 jimHaff.splice(2,1);
 
+*/
+
 //Yell at the Ninja Turtles
 
 //Question 1
@@ -81,10 +83,10 @@ for ( i = 0; i < ninjaTurtles.length; i++) {
     } else {
             console.log(ninjaTurtles[i].toLowerCase())
     }
-}*/
+}
 
 //Return of the Closets
- /*const kristynsCloset = [
+ const kristynsCloset = [
     "left shoe",
     "cowboy boots",
     "right sock",
@@ -117,11 +119,11 @@ for ( i = 0; i < ninjaTurtles.length; i++) {
 
  //Question 1
 let kristynsShoe = kristynsCloset.shift();
-thomsCloset[2].push(kristynsShoe);*/
+thomsCloset[2].push(kristynsShoe);
 
 //Question 2
   //Come back to this one - convoluted
-/*let kristynWearsOne = kristynsCloset[Math.floor(Math.random()*7)];
+let kristynWearsOne = kristynsCloset[Math.floor(Math.random()*7)];
 let kristynWearsTwo = kristynsCloset[Math.floor(Math.random()*7)];
 let kristynWearsThree= kristynsCloset[Math.floor(Math.random()*7)];
 
@@ -143,12 +145,13 @@ let fitTwo = thomsWearsTwo;
 let fitThree= thomsWearsThree;
 
 console.log("Hi, I'm Thom, and today I'll be wearing " +
-    fitOne + " and " + fitTwo + " and " + fitThree + ".");*/
+    fitOne + " and " + fitTwo + " and " + fitThree + ".");
 
 
+/*
 //Dirty Laundry
 //Question 1
-/*
+
 for (let i = 0; i < kristynsCloset.length; i++) {
     console.log("WHIRR:Now washing", kristynsCloset[i] +".");
 }
@@ -163,6 +166,7 @@ console.log(thomsAcc);
 
 let totalCloset = thomsShirts + thomsPants + thomsAcc;
 console.log(totalCloset);
+
 ////////////////////////////Hungry For More
 //Fizz Buzz
 let i;
@@ -186,9 +190,9 @@ for (i = 1; i < 1000; i++) {
         sum+=i;
     }
 }
-console.log(sum);*/
+console.log(sum);
 
-/////Find the Median
+//Find the Median
 const nums =[14, 11, 16, 15, 13, 16, 
     15, 17, 19, 11, 12, 14, 
     19, 11, 15, 17, 11, 18,
@@ -205,3 +209,4 @@ for (let i = 0; i < lengthOf; i++) {
     console.log(sorted[i]);
     }
 }
+*/
