@@ -1,8 +1,7 @@
-/*//Easy Going Question 1
+//Easy Going Question 1
 for (let i= 0; i<=20; i++) {
     console.log(i);
 }
-
 
 //Get Even Question 1
 for (let i = 0; i <= 200; i+=2) {
@@ -57,7 +56,6 @@ jimHaff.splice(2, 1, "Rio", "Paris", "Nairobi");
 //Question 6
 jimHaff.splice(2,1);
 
-*/
 
 //Yell at the Ninja Turtles
 
@@ -75,7 +73,7 @@ for ( i = 0; i < ninjaTurtles.length; i++) {
 }
 
 //Question 3
-    //Come back to this one, still needs worked out
+    //halfway there, will continue to work on own time
 let i;
 for ( i = 0; i < ninjaTurtles.length; i++) {
     if (i % 2 == 0) {
@@ -122,7 +120,7 @@ let kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].push(kristynsShoe);
 
 //Question 2
-  //Come back to this one - convoluted
+  //convoluted...
 let kristynWearsOne = kristynsCloset[Math.floor(Math.random()*7)];
 let kristynWearsTwo = kristynsCloset[Math.floor(Math.random()*7)];
 let kristynWearsThree= kristynsCloset[Math.floor(Math.random()*7)];
@@ -134,8 +132,8 @@ let outfitThree= kristynWearsThree;
 console.log("Hi, I'm Kristyn, and today I'll be wearing " +
     outfitOne + " and " + outfitTwo + " and " + outfitThree + ".");
 
-//problem here in that thom sometimes wears things from the same family 
-//also excludes the fourth option in array0
+//potential problem here in that thom sometimes wears things from the same family 
+//also excludes the fourth option in array[0]
 thomsWearsOne = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
 thomsWearsTwo = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
 thomsWearsThree = thomsCloset[Math.floor(Math.random()*3)][Math.floor(Math.random()*3)];
@@ -148,7 +146,7 @@ console.log("Hi, I'm Thom, and today I'll be wearing " +
     fitOne + " and " + fitTwo + " and " + fitThree + ".");
 
 
-/*
+
 //Dirty Laundry
 //Question 1
 
@@ -209,4 +207,12 @@ for (let i = 0; i < lengthOf; i++) {
     console.log(sorted[i]);
     }
 }
-*/
+
+///Triangles
+//an attempt was made
+let argument = 7;
+numbers = [];
+for (let i = 0; i < 7; i++) {
+	numbers.push("#");
+  console.log(numbers);
+}
