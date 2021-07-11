@@ -59,3 +59,87 @@ for (let x = 0; x in ninjaTurtles;) {
 }
 console.log(ninjaTurtles);
 
+//7. Return of the Closets
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmellow peeps"
+]
+
+const thomsCloset = [[
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+], [
+    "grey jeans",
+    "jeans",
+    "PJs",
+], [
+    "wool mittens",
+    "wool scarf",
+    "raybans",
+]];
+
+let kristynsShoe = kristynsCloset.shift()
+console.log(kristynsShoe)
+
+thomsCloset[2].push(kristynsShoe);
+console.log(thomsCloset)
+
+let kOutfitOne = []
+
+for (let i =1; i <=3;) {
+    let randNum = (Math.floor(Math.random() * 6))
+    kOutfitOne.push(kristynsCloset[randNum]);
+    i = i + 1;
+}
+console.log(kOutfitOne)
+
+let kOutfitTwo = []
+
+for (let i =1; i <=3;) {
+    let randNum = (Math.floor(Math.random() * 6))
+    kOutfitTwo.push(kristynsCloset[randNum]);
+    i = i + 1;
+}
+console.log(kOutfitTwo)
+
+let kOutfitThree = []
+
+for (let i =1; i <=3;) {
+    let randNum = (Math.floor(Math.random() * 6))
+    kOutfitThree.push(kristynsCloset[randNum]);
+    i = i + 1;
+}
+console.log(kOutfitThree)
+
+
+thomOutfitOne = []
+
+for (let x = 0; x<thomsCloset.length; x++){
+    let randNum = (Math.floor(Math.random() * thomsCloset.length))
+    thomOutfitOne.push(thomsCloset[x][randNum])
+}
+console.log(thomOutfitOne)
+
+thomOutfitTwo = []
+
+for (let x = 0; x<thomsCloset.length; x++){
+    let randNum = (Math.floor(Math.random() * thomsCloset.length))
+    thomOutfitTwo.push(thomsCloset[x][randNum])
+}
+thomOutfitThree = []
+for (let x = 0; x<thomsCloset.length; x++){
+    let randNum = (Math.floor(Math.random() * thomsCloset.length))
+    thomOutfitThree.push(thomsCloset[x][randNum])
+}
+
+console.log(thomOutfitOne)
+console.log(thomOutfitTwo)
+console.log(thomOutfitThree)
+
