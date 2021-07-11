@@ -45,3 +45,9 @@ console.log(reuben)
 //5.
 jimHaff.splice(2, 3, "Phoenix ", "Kansas City ", "Corpus Christi")
 console.log(jimHaff)
+
+//Yell at the Ninja Turtles
+ const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+ for(i = 0; i < ninjaTurtles.length; i++){
+     console.log(ninjaTurtles[i].toUpperCase())
+ }
