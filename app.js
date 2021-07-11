@@ -63,7 +63,19 @@ jimHaff.pop();
 jimHaff.push("Seattle", "Tokyo", "Rome");
 console.log(jimHaff);
 
-//6. 
+// 6. 
 
 jimHaff.splice(2, 1);
 console.log(jimHaff);
+
+// Yell at the Ninja Turtles
+
+// 1. 
+
+const ninjaTurtles =["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+// 2.
+
+for (let i = 0; i < ninjaTurtles.length; i++) {
+    console.log(ninjaTurtles[i].toUpperCase());
+}
