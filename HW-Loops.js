@@ -54,12 +54,56 @@ let ninjaTurtles = ["Donatello", "Leonardo" , "Raphael" , "Michaelangelo"];
 // }
 
 ///////QUESTION 5.3 BONUS////////////
-for (i = 0; i < ninjaTurtles.length; i++){ 
-    let turtleSplit = ninjaTurtles[i].split("");
+// for (i = 0; i < ninjaTurtles.length; i++){ 
+//     let turtleSplit = ninjaTurtles[i].split("");
 
-    for (j = 0; j < ninjaTurtles[i].length; j +=2){
-       turtleSplit[j] = turtleSplit[j].toUpperCase("");
-    }
-    console.log(turtleSplit.join(""))
-}
+//     for (j = 0; j < ninjaTurtles[i].length; j +=2){
+//        turtleSplit[j] = turtleSplit[j].toUpperCase("");
+//     }
+//     console.log(turtleSplit.join(""))
+// }
 ///MEGAN AND KENNY ARE RESPONSIBLE I DID NOTHING AT ALL WHATSOEVER EXCEPT CRY//
+
+///////QUESTION 6.1////////////
+
+
+let kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+//   let kristynsShoe = "left shoe"
+//   thomsCloset[2].push(kristynsShoe);
+//   console.log(thomsCloset)
+
+  ///////QUESTION 6.2////////////
+
+  console.log(kristynsCloset [1]+ " " + kristynsCloset[3]+ " " +kristynsCloset[4])
+
+   console.log(thomsCloset[0][2] +", "+ thomsCloset[1][1] +", "+  thomsCloset[2][2])
