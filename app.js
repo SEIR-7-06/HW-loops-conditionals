@@ -7,7 +7,7 @@ for (i=0; i<=20;){
 
 //2. Get Even
 
-for (i=0; i<=200;) {
+for (i=0; i<=200;){ 
     console.log(i)
     i = i + 2;
 }
@@ -143,3 +143,13 @@ console.log(thomOutfitOne)
 console.log(thomOutfitTwo)
 console.log(thomOutfitThree)
 
+// 8. Dirty Laundry
+
+for (let x = 0; x<kristynsCloset.length;(x++)){
+    console.log(`WHIRR: Now washing ${kristynsCloset[x]}`)
+}
+let thomsShirts = (thomsCloset[0])
+let thomsPants = (thomsCloset[1])
+let thomsAccessories = (thomsCloset[2])
+
+console.log(thomsShirts,thomsPants,thomsAccessories)
