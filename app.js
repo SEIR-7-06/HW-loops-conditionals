@@ -68,3 +68,20 @@ console.log(jimHaff);
 jimHaff.splice(2, 1);
 console.log(jimHaff);
 
+/////////////////////////////////////////
+// Yell at the Ninja Turtles
+
+// Create an array with the ninja turtles members
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+// Use a for loop to call .toUpperCase() on each of them and print out the result.
+
+for (i=0; i<=3; i++) {
+    console.log(ninjaTurtles[i].toUpperCase());
+}
+
+// SPACE FOR THE BONUS QUESTION. Holy crap that one looks hard.
+
+/////////////////////////////////////////
+// 
