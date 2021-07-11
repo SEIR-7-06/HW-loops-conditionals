@@ -77,23 +77,24 @@ let kristynsCloset = [
     "marshmallow peeps"
   ];
 
+
   // Thom's closet is more complicated. Check out this nested data structure!!
   const thomsCloset = [
     [
       // These are Thom's shirts
-      "grey button-up",
-      "dark grey button-up",
-      "light blue button-up",
+      "grey button-up ",
+      "dark grey button-up ",
+      "light blue button-up ",
       "blue button-up",
     ],[
       // These are Thom's pants
-      "grey jeans",
-      "jeans",
+      "grey jeans ",
+      "jeans ",
       "PJs"
     ],[
       // Thom's accessories
-      "wool mittens",
-      "wool scarf",
+      "wool mittens ",
+      "wool scarf ",
       "raybans"
     ]
   ];
@@ -104,6 +105,15 @@ let kristynsCloset = [
 
   ///////QUESTION 6.2////////////
 
-  console.log(kristynsCloset [1]+ " " + kristynsCloset[3]+ " " +kristynsCloset[4])
+// console.log(kristynsCloset[1]+ " " + kristynsCloset[3]+ " " +kristynsCloset[4])
+// console.log(thomsCloset[0][2] +", "+ thomsCloset[1][1] +", "+  thomsCloset[2][2])
 
-   console.log(thomsCloset[0][2] +", "+ thomsCloset[1][1] +", "+  thomsCloset[2][2])
+ ///////QUESTION 7.1: Dirty Laundry////////////
+for(i = 1; i <=kristynsCloset.length; i++){
+    console.log( "WHIRR: Now washing" + (kristynsCloset[i]))
+     }
+
+
+console.log("ARRAY 1: " + thomsCloset[0]+". ARRAY 2: "+thomsCloset[1]+". ARRAY 3: "+thomsCloset[2])
+
+
