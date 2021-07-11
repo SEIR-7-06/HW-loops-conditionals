@@ -82,19 +82,19 @@ let kristynsCloset = [
   const thomsCloset = [
     [
       // These are Thom's shirts
-      "grey button-up ",
-      "dark grey button-up ",
-      "light blue button-up ",
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
       "blue button-up",
     ],[
       // These are Thom's pants
-      "grey jeans ",
-      "jeans ",
+      "grey jeans",
+      "jeans",
       "PJs"
     ],[
       // Thom's accessories
-      "wool mittens ",
-      "wool scarf ",
+      "wool mittens",
+      "wool scarf",
       "raybans"
     ]
   ];
@@ -105,15 +105,19 @@ let kristynsCloset = [
 
   ///////QUESTION 6.2////////////
 
-// console.log(kristynsCloset[1]+ " " + kristynsCloset[3]+ " " +kristynsCloset[4])
-// console.log(thomsCloset[0][2] +", "+ thomsCloset[1][1] +", "+  thomsCloset[2][2])
+// console.log("Kristyn's fit is" + kristynsCloset[4]+ ", " + kristynsCloset[2]+ ",and " +kristynsCloset[3] +"!")
+// console.log("Now Kristyn's new look is"+ kristynsCloset[0]+ ", " + kristynsCloset[2]+ ",and " +kristynsCloset[5]+"!")
+// console.log("And now! Kristyn's final look is"+ kristynsCloset[1]+ ", " + kristynsCloset[3]+ ",and " +kristynsCloset[4]+"!")
+
+console.log("Thom's first lewk is a "+thomsCloset[0][1] +", some "+ thomsCloset[1][1] +", and killer"+  thomsCloset[2][2]+". wow stunna!")
+console.log("Thom's second look is a daring "+thomsCloset[0][0] +", impressively casual "+ thomsCloset[1][0] +", and, wow excuse us, "+  thomsCloset[2][1]+"?")
+console.log("Thom's final look is a daring "+thomsCloset[0][2] +", "+ thomsCloset[1][0] +", "+  thomsCloset[2][2] +".")
 
  ///////QUESTION 7.1: Dirty Laundry////////////
-for(i = 1; i <=kristynsCloset.length; i++){
-    console.log( "WHIRR: Now washing" + (kristynsCloset[i]))
-     }
+// for(i = 1; i <kristynsCloset.length; i++){
+//     console.log( "WHIRR: Now washing" + (kristynsCloset[i]))
+//      }
 
-
-console.log("ARRAY 1: " + thomsCloset[0]+". ARRAY 2: "+thomsCloset[1]+". ARRAY 3: "+thomsCloset[2])
+// console.log("ARRAY 1: " + thomsCloset[0]+". ARRAY 2: "+thomsCloset[1]+". ARRAY 3: "+thomsCloset[2])
 
 
