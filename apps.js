@@ -29,19 +29,35 @@
 
 // Working with arrays //
 
-const kenny = ["Kenny", 1000, "Austin"];
-const jimHaff = ["Jim H", 16, "All cities"];
-const reuben = ["Reuben", 22, "Durham"];
-const jimClark = ["Jim C", 186, "LA"];
-const ryan = ["Ryan", 65, "Denver"];
+// const kenny = ["Kenny", 1000, "Austin"];
+// const jimHaff = ["Jim H", 16, "All cities"];
+// const reuben = ["Reuben", 22, "Durham"];
+// const jimClark = ["Jim C", 186, "LA"];
+// const ryan = ["Ryan", 65, "Denver"];
 
-kenny [0] = 'Gameboy';
-kenny [0] = 'Gameboy';
-jimClark.splice(1, 1, 187)
-ryan [2] = 'Gotham City';
-reuben.pop();
-reuben.push([2], 'Chicago')
-jimHaff.splice(2, 2, 'NY', 'Boston', 'Chicago');
-jimHaff.splice(2, 1 )
+// kenny [0] = 'Gameboy';
+// kenny [0] = 'Gameboy';
+// jimClark.splice(1, 1, 187)
+// ryan [2] = 'Gotham City';
+// reuben.pop();
+// reuben.push([2], 'Chicago')
+// jimHaff.splice(2, 2, 'NY', 'Boston', 'Chicago');
+// jimHaff.splice(2, 1 )
 
-console.log( kenny, jimHaff, reuben, jimClark, ryan);
+// console.log( kenny, jimHaff, reuben, jimClark, ryan);
+
+// Yell at the Ninja Turtles //
+
+const turtlePower = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+for (let halfShell = 0; halfShell < turtlePower.length; halfShell++){
+    turtlePower[halfShell] = turtlePower[halfShell].toUpperCase();
+if (halfShell % 2 == 1) {
+    turtlePower[halfShell] = turtlePower[halfShell].toLowerCase();
+}
+console.log(turtlePower[halfShell])
+}
+
+
+
+
