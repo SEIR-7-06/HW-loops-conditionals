@@ -51,3 +51,10 @@ jimHaff.pop();
 jimHaff.push('San Fran', 'Tokyo', 'Paris');
 jimHaff.splice(2, 1)
 console.log(jimHaff);
+
+// Yell at TMNT
+const turtle = ['leonardo', 'raphael', 'donatello', 'michaelangelo'];
+
+for ( i = 0; i <= 4; i++) {
+    console.log(turtle[i].toUpperCase());
+}
