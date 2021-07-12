@@ -93,3 +93,82 @@ const ninjaTurtles = [
 for (let index = 0; index < ninjaTurtles.length; index++) {
     console.log(ninjaTurtles[index].toUpperCase())
 }
+
+// ## Return of the Closets
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+  
+  // 1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! 
+  // Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. 
+  
+  kristynsShoe = kristynsCloset[0]
+  
+  console.log(kristynsShoe)
+  
+  kristynsCloset.splice(0,1)
+  
+  console.log(kristynsCloset[0])
+  
+  // Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+  
+  // thomsCloset.splice(0,1)
+  
+  // Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+  thomsCloset[1][3] = kristynsShoe
+  
+  console.log(thomsCloset[1][3])
+  
+  // 2. Modify your code to put together **3 separate outfits** for Kristyn and Thom. 
+  // Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+  
+  const thomOutfit1 = [
+      thomsCloset[0][0],
+      thomsCloset[1][0],
+      thomsCloset[2][0]
+  ]
+  const thomOutfit2 = [
+      thomsCloset[0][1],
+      thomsCloset[1][1],
+      thomsCloset[2][1]
+  ]
+  const thomOutfit3 = [
+      thomsCloset[0][2],
+      thomsCloset[1][2],
+      thomsCloset[2][2]
+  ]
+  
+  const kristynOutfit1 = [
+      kristynsCloset[0],
+      kristynsCloset[1],
+      kristynsCloset[2]
+  ]
+  
+  console.log('Thom will be wearing', thomOutfit1 + '.', 'Kristyn will be wearing', kristynOutfit1 + '.')
