@@ -188,3 +188,21 @@ function thomsOutfit() {
 thomsOutfit();
 thomsOutfit();
 thomsOutfit();
+
+/////////////////////////////////////////
+// Dirty Laundry
+
+// Loop through Kristyn's closet and log washing
+for (i=0; i <= kristynsCloset.length; i++) {
+    console.log(`WHIRR: Now washing ${kristynsCloset[i]}`);
+}
+
+// Using "bracket notation" log the arrays (not the elements in the arrays) containing all of Thom's clothes.
+// This is imprecisely worded--not sure exactly what is being asked for here. Inventory would imply an itemization of the entire contents of the closet. But to do that would require listing out the elements of each array? This is my best guess at what's being asked.
+
+function thomsInventory() {
+    console.log(thomsCloset[0]);
+    console.log(thomsCloset[1]);
+    console.log(thomsCloset[2]);
+}
+thomsInventory();
