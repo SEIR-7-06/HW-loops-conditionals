@@ -91,53 +91,62 @@ const kristynsCloset = [
     ]
   ];
   
-let kristynsShoe = kristynsCloset.shift();
-thomsCloset[2].push(kristynsShoe);
-console.log(thomsCloset)
+// let kristynsShoe = kristynsCloset.shift();
+// thomsCloset[2].push(kristynsShoe);
+// console.log(thomsCloset)
 
 
-krisFitOne = []
-for (let i = 1; i <=3;){
-    let fate = (Math.floor(Math.random() * 6))
-    krisFitOne.push(kristynsCloset[fate]);
-    i = i + 1;
+// krisFitOne = []
+// for (let i = 1; i <=3;){
+//     let fate = (Math.floor(Math.random() * 6))
+//     krisFitOne.push(kristynsCloset[fate]);
+//     i = i + 1;
+// }
+// console.log('Kristyn will wear ' + krisFitOne) 
+
+// krisFitTwo = []
+// for (let i = 1; i <=3;){
+//     let fate = (Math.floor(Math.random() * 6))
+//     krisFitTwo.push(kristynsCloset[fate]);
+//     i = i + 1;
+// }
+// console.log('Kristyn will wear ' + krisFitTwo)
+
+// krisFitThree = []
+// for (let i = 1; i <=3;){
+//     let fate = (Math.floor(Math.random() * 6))
+//     krisFitThree.push(kristynsCloset[fate]);
+//     i = i + 1;
+// }
+// console.log('Kristyn will wear ' + krisFitThree)
+
+
+// thomFitOne = []
+// for (let i = 0; i < thomsCloset.length; i++){
+//     let fate = (Math.floor(Math.random() * thomsCloset.length));
+//     thomFitOne.push(thomsCloset[i][fate])
+//     console.log("Thom will wear " + thomFitOne)
+// }
+
+// thomFitTwo = []
+// for (let i = 0; i < thomsCloset.length; i++){
+//     let fate = (Math.floor(Math.random() * thomsCloset.length));
+//     thomFitTwo.push(thomsCloset[i][fate])
+//     console.log("Thom will wear " + thomFitTwo)
+// }
+
+// thomFitThree = []
+// for (let i = 0; i < thomsCloset.length; i++){
+//     let fate = (Math.floor(Math.random() * thomsCloset.length));
+//     thomFitThree.push(thomsCloset[i][fate])
+//     console.log("Thom will wear " + thomFitThree)
+// }
+// I borrowed code from Greg for this one. He is a very skilled at coding. 
+
+for (let i = 0; i < kristynsCloset.length; i++){
+    console.log('WHIRR: Now washing ' + kristynsCloset[i])
 }
-console.log('Kristyn will wear ' + krisFitOne) 
 
-krisFitTwo = []
-for (let i = 1; i <=3;){
-    let fate = (Math.floor(Math.random() * 6))
-    krisFitTwo.push(kristynsCloset[fate]);
-    i = i + 1;
-}
-console.log('Kristyn will wear ' + krisFitTwo)
-
-krisFitThree = []
-for (let i = 1; i <=3;){
-    let fate = (Math.floor(Math.random() * 6))
-    krisFitThree.push(kristynsCloset[fate]);
-    i = i + 1;
-}
-console.log('Kristyn will wear ' + krisFitThree)
-
-
-thomFitOne = []
 for (let i = 0; i < thomsCloset.length; i++){
-    let fate = (Math.floor(Math.random() * thomsCloset.length));
-    thomFitOne.push(thomsCloset[i][fate])
-    console.log("Thom will wear " + thomFitOne)
-}
-
-thomFitTwo = []
-for (let i = 0; i < thomsCloset.length; i++){
-    let fate = (Math.floor(Math.random() * thomsCloset.length));
-    thomFitTwo.push(thomsCloset[i][fate])
-    console.log("Thom will wear " + thomFitTwo)
-}
-
-thomFitThree = []
-for (let i = 0; i < thomsCloset.length; i++){
-    let fate = (Math.floor(Math.random() * thomsCloset.length));
-    thomFitThree.push(thomsCloset[i][fate])
-    console.log("Thom will wear " + thomFitThree)
+    console.log(thomsCloset[i])
 }
