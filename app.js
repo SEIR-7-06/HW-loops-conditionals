@@ -76,3 +76,20 @@ reuben.splice(2,1,'Chicago')
 // and add them to Jim's array. If you did it in 3 lines of code that's fine, but 
 
 jimHaff.splice(2,1,'Vail', 'Jackson', 'Aspen')
+
+
+// ## Yell at the Ninja Turtles
+// 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+
+const ninjaTurtles = [
+    'Donatello', 
+    'Leonardo', 
+    'Raphael', 
+    'Michaelangelo'
+]
+
+// 2. Use a `for loop` to call `.toUpperCase()` on each of them and print out the result.
+
+for (let index = 0; index < ninjaTurtles.length; index++) {
+    console.log(ninjaTurtles[index].toUpperCase())
+}
