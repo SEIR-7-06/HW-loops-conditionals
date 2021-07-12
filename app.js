@@ -72,10 +72,53 @@ console.log(jimHaff);
 
 // 1. 
 
-const ninjaTurtles =["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 
 // 2.
 
 for (let i = 0; i < ninjaTurtles.length; i++) {
     console.log(ninjaTurtles[i].toUpperCase());
 }
+
+// Return of the Closets
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+];
+
+const thomsCloset = [
+    [
+        "grey button-up",
+        "dark grey button-up",
+        "light blue button-up",
+        "blue button-up"
+    ], [
+        "grey jeans",
+        "jeans",
+        "PJs"
+    ], [
+        "wool mittens",
+        "wool scarf",
+        "raybans"
+    ]
+];
+
+// 1.
+
+const kristynsShoe = kristynsCloset[0];
+thomsCloset[2].push(kristynsShoe);
+kristynsCloset.splice(0,1);
+console.log(kristynsCloset);
+console.log(thomsCloset);
+
+// 2.
+
+console.log("Kristyn is wearing a " + kristynsCloset[1] + ", " + kristynsCloset[3] + ", a " + kristynsCloset[2] + ", and a " + kristynsCloset[4]);
+console.log("Kristyn is wearing " + kristynsCloset[0] + ", " + kristynsCloset[3] + ", and a " + kristynsCloset[2]);
+console.log("Kristyn is wearing a " + kristynsCloset[1] + ", " + kristynsCloset[3] + ", and a " + kristynsCloset[2]);
