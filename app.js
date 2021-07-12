@@ -56,5 +56,61 @@ console.log(jimHaff);
 const turtle = ['leonardo', 'raphael', 'donatello', 'michaelangelo'];
 
 for ( i = 0; i <= 4; i++) {
-    console.log(turtle[i].toUpperCase());
+    // console.log(turtle[i].toUpperCase());
 }
+
+// Alien Attire
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  kristynsCloset.splice(0, 1);
+
+  console.log(kristynsCloset);
+
+ const kristynsShoe = 'left shoe';
+
+ thomsCloset[(2)].splice(1, 0, kristynsShoe);
+
+ console.log(thomsCloset);
+
+ // Dirty laundry
+
+ for (i = 0; i < kristynsCloset.length; i++) {
+     console.log("WHIRR: Now washing " + kristynsCloset[i]);
+ }
+
+ const thomsInventory = 
+ thomsCloset[(0)] = 'Thom/s shirts';
+ thomsCloset[(1)] = 'Thom/s pants';
+ thomsCloset[(2)] = 'Thom/s accessories';
+
+ console.log(thomsInventory);
