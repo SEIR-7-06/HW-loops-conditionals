@@ -48,16 +48,96 @@
 
 // Yell at the Ninja Turtles //
 
-const turtlePower = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// const turtlePower = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-for (let halfShell = 0; halfShell < turtlePower.length; halfShell++){
-    turtlePower[halfShell] = turtlePower[halfShell].toUpperCase();
-if (halfShell % 2 == 1) {
-    turtlePower[halfShell] = turtlePower[halfShell].toLowerCase();
+// for (let halfShell = 0; halfShell < turtlePower.length; halfShell++){
+//     turtlePower[halfShell] = turtlePower[halfShell].toUpperCase();
+// if (halfShell % 2 == 1) {
+//     turtlePower[halfShell] = turtlePower[halfShell].toLowerCase();
+// }
+// console.log(turtlePower[halfShell])
+// }
+
+// Return of the Closets //
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+  
+let kristynsShoe = kristynsCloset.shift();
+thomsCloset[2].push(kristynsShoe);
+console.log(thomsCloset)
+
+
+krisFitOne = []
+for (let i = 1; i <=3;){
+    let fate = (Math.floor(Math.random() * 6))
+    krisFitOne.push(kristynsCloset[fate]);
+    i = i + 1;
 }
-console.log(turtlePower[halfShell])
+console.log('Kristyn will wear ' + krisFitOne) 
+
+krisFitTwo = []
+for (let i = 1; i <=3;){
+    let fate = (Math.floor(Math.random() * 6))
+    krisFitTwo.push(kristynsCloset[fate]);
+    i = i + 1;
+}
+console.log('Kristyn will wear ' + krisFitTwo)
+
+krisFitThree = []
+for (let i = 1; i <=3;){
+    let fate = (Math.floor(Math.random() * 6))
+    krisFitThree.push(kristynsCloset[fate]);
+    i = i + 1;
+}
+console.log('Kristyn will wear ' + krisFitThree)
+
+
+thomFitOne = []
+for (let i = 0; i < thomsCloset.length; i++){
+    let fate = (Math.floor(Math.random() * thomsCloset.length));
+    thomFitOne.push(thomsCloset[i][fate])
+    console.log("Thom will wear " + thomFitOne)
 }
 
+thomFitTwo = []
+for (let i = 0; i < thomsCloset.length; i++){
+    let fate = (Math.floor(Math.random() * thomsCloset.length));
+    thomFitTwo.push(thomsCloset[i][fate])
+    console.log("Thom will wear " + thomFitTwo)
+}
 
-
-
+thomFitThree = []
+for (let i = 0; i < thomsCloset.length; i++){
+    let fate = (Math.floor(Math.random() * thomsCloset.length));
+    thomFitThree.push(thomsCloset[i][fate])
+    console.log("Thom will wear " + thomFitThree)
+}
