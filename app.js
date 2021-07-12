@@ -63,21 +63,79 @@
 // jimHaff.splice(2, 1)
 // console.log(jimHaff)
 
-const ninjaTurtles = [
-    'Donatello',
-    'Leonardo',
-    'Raphael',
-    'Michaelangelo'
-]
+// const ninjaTurtles = [
+//     'Donatello',
+//     'Leonardo',
+//     'Raphael',
+//     'Michaelangelo'
+// ]
 
-for (let i = 0; i < ninjaTurtles.length; i++) {
-    console.log(ninjaTurtles[i].toUpperCase())
-}
+// for (let i = 0; i < ninjaTurtles.length; i++) {
+//     console.log(ninjaTurtles[i].toUpperCase())
+// }
 
-for (let i = 0; i < ninjaTurtles.length; i++) {
-    ninjaTurtles[i] = ninjaTurtles[i].split("")
-        for (let j = 0; j < ninjaTurtles[i].length; j += 2) {
-        ninjaTurtles[i][j] = ninjaTurtles[i][j].toUpperCase("")
-        }
-    console.log(ninjaTurtles[i].join(''))
-}
+// for (let i = 0; i < ninjaTurtles.length; i++) {
+//     ninjaTurtles[i] = ninjaTurtles[i].split("")
+//         for (let j = 0; j < ninjaTurtles[i].length; j += 2) {
+//         ninjaTurtles[i][j] = ninjaTurtles[i][j].toUpperCase("")
+//         }
+//     console.log(ninjaTurtles[i].join(''))
+// }
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+kristynsCloset.splice(0, 1)
+let kristynsShoe = "left shoe"
+thomsCloset[2].push(kristynsShoe)
+
+console.log(kristynsCloset)
+console.log(thomsCloset)
+
+// Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!
+
+
+// For Kristyn's closet, pick out 2 items 3 x (but not the peeps!)
+
+// let kristynsClosetArr = []
+// for (let i = 0; i < kristynsCloset.length; i++) {
+//   kristynsClosetArr.push(kristynsCloset.splice(Math.random()*kristynsCloset.length).pop())
+// }
+
+// console.log(kristynsClosetArr)
+
+// let num = Math.floor(Math.random()*kristynsCloset.length) 
+// console.log(kristynsCloset[num])
+// for (let i = 0; i < kristynsCloset.length; i++) {
+//   console.log(kristynsCloset[i]) 
+// }
+
+// For Connor's closet, pick out one item from each array and put them into a new array.
