@@ -10,9 +10,15 @@ for(let i = 0; i <= 200; i+=2){
 
 //Excited Kitten
 
+const kittenQuote = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."]
+
+const randomNum = Math.floor(Math.random() * 3) + 1
+
+console.log(kittenQuote[randomNum])
+
 for(let i = 1; i <= 20; i ++ ){
     if(i % 2 === 0){
-        console.log("...human...why you taking pictures of me?...")
+    console.log(kittenQuote[randomNum])
     } else {
     console.log("Love me, pet me! HSSSS!")
     }
