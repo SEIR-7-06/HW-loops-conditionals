@@ -1,5 +1,3 @@
-// This is just a test.
-
 // Easy Going
 
 for (let i = 1; i < 21; i++) {
@@ -109,6 +107,8 @@ const thomsCloset = [
     ]
 ];
 
+// Alien Attire
+
 // 1.
 
 const kristynsShoe = kristynsCloset[0];
@@ -122,3 +122,17 @@ console.log(thomsCloset);
 console.log("Kristyn is wearing a " + kristynsCloset[1] + ", " + kristynsCloset[3] + ", a " + kristynsCloset[2] + ", and a " + kristynsCloset[4]);
 console.log("Kristyn is wearing " + kristynsCloset[0] + ", " + kristynsCloset[3] + ", and a " + kristynsCloset[2]);
 console.log("Kristyn is wearing a " + kristynsCloset[1] + ", " + kristynsCloset[3] + ", and a " + kristynsCloset[2]);
+
+// Dirty Laundry 
+
+// 1.
+
+for (let i = 0; i < kristynsCloset.length; i++) {
+    console.log("WHIRR: Now washing " + kristynsCloset[i]);
+}
+
+// 2. 
+
+console.log(thomsCloset[0]);
+console.log(thomsCloset[1]);
+console.log(thomsCloset[2]);
