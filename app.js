@@ -206,3 +206,11 @@ function thomsInventory() {
     console.log(thomsCloset[2]);
 }
 thomsInventory();
+
+//If the number of items is what was being asked for, this would be the bracket notation for it:
+
+function thomsOtherInventory() {
+    let inventory = thomsCloset[0].length + thomsCloset[1].length + thomsCloset[2].length;
+    console.log(inventory);
+}
+thomsOtherInventory();
