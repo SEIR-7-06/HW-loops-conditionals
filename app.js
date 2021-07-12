@@ -172,3 +172,17 @@ const kristynsCloset = [
   ]
   
   console.log('Thom will be wearing', thomOutfit1 + '.', 'Kristyn will be wearing', kristynOutfit1 + '.')
+  
+  // ### Dirty Laundry
+// Continue looking at the closet arrays:
+// 1. Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)"
+// for each item in the array.
+
+for (let i = 0; i < kristynsCloset.length; i++){
+    console.log('WHIRR: Now washing', kristynsCloset[i])
+}
+
+// 2. Thom wants to do inventory on his closet. 
+// Using **bracket notation**, log the **arrays** (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
+
+console.log(`Thom has ${thomsCloset[0].length} shirts. Thom has ${thomsCloset[2].length} pants. Thom has ${thomsCloset[2].length} accessories.`)
