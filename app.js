@@ -84,4 +84,107 @@ for (i=0; i<=3; i++) {
 // SPACE FOR THE BONUS QUESTION. Holy crap that one looks hard.
 
 /////////////////////////////////////////
-// 
+// Return of the Closets
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  // Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. Use the variable to add it to Thom's accessories array.
+
+  const kristynsShoe = kristynsCloset[0];
+  kristynsCloset.splice(0, 1);
+  thomsCloset[2].push(kristynsShoe);
+
+  // Modify the code to put together 3 different outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. 
+
+function kristynsOutfit(kristynsCloset) {
+    // Establish outfit array
+    const kristynsOutfitArray = [];
+    
+    // Select first element at random
+    let krystensFirstPick = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
+    // Put into new array
+    kristynsOutfitArray.push(krystensFirstPick);
+
+    // Select second element at random
+    let krystensSecondPick = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
+
+    // Check if it's already in the new array
+    if (kristynsOutfitArray.includes(krystensSecondPick)) {
+        kristynsOutfitArray.push(krystensSecondPick);
+    } else {
+        //I tried out !kristynsOutfitArray.includes(krystensSecondPick) and krystynsOutfitArray.includes(krystensSecondPick != true). The second one just didn't work, but the first one became an infinite loop. I know it's probably because of the multiple instances of 'krystensSecondPick' but I am now stuck.
+        while (kristynsOutfitArray.includes(krystensSecondPick)) {
+            let krystensSecondPick = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
+        }
+    }
+        //If no, put into new array
+    kristynsOutfitArray.push(krystensSecondPick);    
+
+    // Repeat
+    let krystensThirdPick = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
+
+    if (kristynsOutfitArray.includes(krystensThirdPick)) {
+        kristynsOutfitArray.push(krystensThirdPick);
+    } else {
+        while (kristynsOutfitArray.includes(krystensThirdPick)) {
+            let krystensThirdPick = kristynsCloset[Math.floor(Math.random() * kristynsCloset.length)];
+        }
+    }
+    // Log the items in a sentence.
+
+    console.log(`Krysten chose to wear ${krystensFirstPick}, ${krystensSecondPick}, and ${krystensThirdPick}`);
+}
+
+// kristynsOutfit(kristynsCloset);
+// kristynsOutfit(kristynsCloset);
+// kristynsOutfit(kristynsCloset);
+
+function thomsOutfit() {
+    const thomsShirts = thomsCloset[0];
+    const thomsPants = thomsCloset[1];
+    const thomsAccessories = thomsCloset[2];
+
+    // Select first element at random from first subarray
+    let thomsFirstPick = thomsShirts[Math.floor(Math.random() * thomsShirts.length)];
+
+    // Select second element at random from second subarray
+    let thomsSecondPick = thomsPants[Math.floor(Math.random) * thomsPants.length];
+
+    // Select third element at random from third subarray
+    let thomsThirdPick = thomsAccessories[Math.floor(Math.random) * thomsAccessories.length];
+
+    // Log the items in a sentence.
+    console.log(`Thom chose to wear ${thomsFirstPick}, ${thomsSecondPick}, and ${thomsThirdPick}.`);
+}
+
+// The second and third items are coming out as 'undefined' for some reason. I took this syntax straight from Kristyn's example, so ???
+thomsOutfit();
+thomsOutfit();
+thomsOutfit();
