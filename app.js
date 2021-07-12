@@ -100,7 +100,7 @@ const kristynsCloset = [
     ]
   ];
 
-  //1.)
+  //Alien Attire
   let kristynsShoe = kristynsCloset[0];
   kristynsCloset.shift();
 
@@ -121,3 +121,9 @@ console.log('Kristyn chose ' + outfitChoice(kristynOutfit))
 console.log('Thom chose ' + outfitChoice(ThomsOutfit1))
 console.log('Thom chose ' + outfitChoice(ThomsOutfit2))
 
+//Dirty Laundry
+for(let i=0; i<kristynsCloset.length; i++){
+    console.log("WHIRR: Now washing " + kristynsCloset[i])
+}
+
+// Not quite sure what this last question means.
