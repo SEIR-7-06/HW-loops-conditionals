@@ -9,16 +9,17 @@ for (i = 0; i <= 200; i += 2) {
 }
 
 // Excited Kitten
-const cat = Math.random([
+const catQuotes = [
     "...human...why you taking pictures of me?...", 
     "...the catnip made me do it...",
     "...why does the red dot always get away...",
-
-]);
+];
+// Get a random number, either 0, 1, 2
+const getRandomNum = Math.floor(Math.random() * 3)
 
 for (i = 0; i <= 20; i++) {
-    if (i % 2 == 0){
-        console.log(cat);
+    if (i % 2 == 0) {
+        console.log(catQuotes[getRandomNum]);
     } else {
         
         console.log("Love me, pet me! HSSSSSS!");
@@ -109,8 +110,8 @@ const kristynsCloset = [
  }
 
  const thomsInventory = 
- thomsCloset[(0)] = 'Thom/s shirts';
- thomsCloset[(1)] = 'Thom/s pants';
- thomsCloset[(2)] = 'Thom/s accessories';
+ thomsCloset[(0)] = 'Thom\'s shirts';
+ thomsCloset[(1)] = 'Thom\'s pants';
+ thomsCloset[(2)] = 'Thom\'s accessories';
 
  console.log(thomsInventory);
