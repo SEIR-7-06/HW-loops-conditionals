@@ -68,3 +68,56 @@ for(let i=0; i<team.length; i++){
     }
 
 }
+
+
+// Return of the Closets
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+  //1.)
+  let kristynsShoe = kristynsCloset[0];
+  kristynsCloset.shift();
+
+  kristynOutfit = [kristynsCloset[0],kristynsCloset[2],kristynsCloset[3]]
+  ThomsOutfit1 = []
+  ThomsOutfit2 = []
+  ThomsOutfit1.push(thomsCloset[0][1]);
+  ThomsOutfit1.push(thomsCloset[1][0]);
+  ThomsOutfit1.push(thomsCloset[2][2]);
+  ThomsOutfit2.push(thomsCloset[0][3]);
+  ThomsOutfit2.push(thomsCloset[1][2]);
+  ThomsOutfit2.push(thomsCloset[2][0]);
+  
+  function outfitChoice(a){
+      return `${a[0]}, ${a[1]} and ${a[2]} as an outfit`
+  }
+console.log('Kristyn chose ' + outfitChoice(kristynOutfit))
+console.log('Thom chose ' + outfitChoice(ThomsOutfit1))
+console.log('Thom chose ' + outfitChoice(ThomsOutfit2))
+
