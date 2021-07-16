@@ -10,7 +10,7 @@ Language: JavaScript <br>
 ---
 
 ## Setup
-1. *Fork* this repo to your account and then clone it down to your compumter into your `sei/deliverables` directory.
+1. *Fork* this repo to your account and then clone it down to your computer into your `sei/deliverables` directory.
 
 2. Inside the directory created by the clone, build our file structure (index.html and app.js). Put your answers in `app.js`.
 
